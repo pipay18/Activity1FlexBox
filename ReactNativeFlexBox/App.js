@@ -7,9 +7,9 @@ export default function App() {
       <View style={styles.profile}>
         <Image
           style={styles.image}
-          source={require("./images/pic.png")} // static image
+          source={require("./images/picture.png")} // static image
         />
-        <Text style={styles.name}>Angelo Maldora</Text>
+        <Text style={styles.name}>Airen Mae Bongcaras</Text>
         <Text style={styles.course}>Information Technology 3</Text>
       </View>
       <Text style={styles.subject}>My Subjects</Text>
@@ -58,7 +58,12 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
+
+  maintext: {
+    color: "white",
+    marginTop: 20,
+  },
+    container: {
     flex: 1,
     backgroundColor: "white",
     alignItems: "flex-start",
@@ -74,10 +79,6 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: 40,
     padding: 10,
     flexDirection: "column",
-  },
-  maintext: {
-    color: "white",
-    marginTop: 20,
   },
   name: {
     fontSize: 30,
