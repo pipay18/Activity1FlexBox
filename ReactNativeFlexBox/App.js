@@ -118,13 +118,11 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   more: {
-   
     width: 320,
     alignItems:'flex-end'
   },
   mores: {
     color: "#23459c",
-    
   },
   row1: {
     flexDirection: "column",
